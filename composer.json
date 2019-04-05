@@ -1,6 +1,6 @@
 {
     "name": "arondeparon/schedulewhen",
-    "description": ":A command that enabled you see what the scheduler will do at a given moment in time.",
+    "description": "A command that enabled you see what the scheduler will do at a given moment in time.",
     "license": "MIT",
     "authors": [
         {
@@ -16,9 +16,9 @@
         "illuminate/support": "~5"
     },
     "require-dev": {
-        "phpunit/phpunit": "~7.0",
+        "phpunit/phpunit": "^8.0",
         "mockery/mockery": "^1.1",
-        "orchestra/testbench": "~3.0",
+        "orchestra/testbench": "~3.8",
         "sempro/phpunit-pretty-print": "^1.0"
     },
     "autoload": {
