@@ -1,6 +1,6 @@
 {
     "name": "arondeparon/laravel-schedule-when",
-    "description": "A command that enabled you see what the scheduler will do at a given moment in time.",
+    "description": "A command that enables you see what the scheduler will do at a given moment in time.",
     "license": "MIT",
     "authors": [
         {
