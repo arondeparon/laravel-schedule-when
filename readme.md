@@ -1,4 +1,4 @@
-# A Console Command that tells you what the Scheduler will run.
+# A Command that tells you what the Scheduler will run.
 
 [![Latest Version on Packagist][ico-version]][link-packagist]
 [![Total Downloads][ico-downloads]][link-downloads]
