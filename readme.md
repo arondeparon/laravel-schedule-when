@@ -37,14 +37,13 @@ $ composer test
 
 MIT license. Please see the [license file](license.md) for more information.
 
-[ico-version]: https://img.shields.io/packagist/v/arondeparon/schedulewhen.svg?style=flat-square
-[ico-downloads]: https://img.shields.io/packagist/dt/arondeparon/schedulewhen.svg?style=flat-square
-[ico-travis]: https://img.shields.io/travis/arondeparon/schedulewhen/master.svg?style=flat-square
+[ico-version]: https://img.shields.io/packagist/v/arondeparon/laravel-schedule-when.svg?style=flat-square
+[ico-downloads]: https://img.shields.io/packagist/dt/arondeparon/laravel-schedule-when.svg?style=flat-square
+[ico-travis]: https://img.shields.io/travis/arondeparon/laravel-schedule-when/master.svg?style=flat-square
 [ico-styleci]: https://styleci.io/repos/12345678/shield
 
-[link-packagist]: https://packagist.org/packages/arondeparon/schedulewhen
-[link-downloads]: https://packagist.org/packages/arondeparon/schedulewhen
-[link-travis]: https://travis-ci.org/arondeparon/schedulewhen
-[link-styleci]: https://styleci.io/repos/12345678
+[link-packagist]: https://packagist.org/packages/arondeparon/laravel-schedule-when
+[link-downloads]: https://packagist.org/packages/arondeparon/laravel-schedule-when
+[link-travis]: https://travis-ci.org/ArondeParon/laravel-schedule-when
 [link-author]: https://github.com/arondeparon
 [link-contributors]: ../../contributors
