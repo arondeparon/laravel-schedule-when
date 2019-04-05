@@ -12,6 +12,7 @@
     "homepage": "https://github.com/arondeparon/schedulewhen",
     "keywords": ["Laravel", "ScheduleWhen"],
     "require": {
+        "php": "^7.2",
         "illuminate/support": "~5"
     },
     "require-dev": {
