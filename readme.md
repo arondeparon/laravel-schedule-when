@@ -1,17 +1,24 @@
-# ScheduleWhen
+# A Console Command that tells you what the Scheduler will run.
 
 [![Latest Version on Packagist][ico-version]][link-packagist]
 [![Total Downloads][ico-downloads]][link-downloads]
 [![Build Status][ico-travis]][link-travis]
 
-A Laravel Console Command that tells you the scheduler would do at a given moment in time.
+This Laravel package provides a command tells you the scheduler would do at a given moment in time.
 
-## Installation
+In some applications, the schedule can quickly grow to dozens of scheduled commands, making it harder
+and harder to see what the Scheduler will do a give moment in time.
 
-Via Composer
+This command will help you to see what the Scheduler will or will not do so that you can stop guessing.
+
+## Installation and use
+This package requires PHP 7.2 and Laravel 5.5 or higher.
+
+## Getting started
+Install via Composer
 
 ``` bash
-$ composer require arondeparon/schedulewhen
+$ composer require arondeparon/laravel-schedule-when
 ```
 
 ## Usage

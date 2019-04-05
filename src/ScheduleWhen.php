@@ -2,7 +2,7 @@
 
 namespace ArondeParon\ScheduleWhen;
 
-use Carbon\CarbonInterface;
+use Carbon\Carbon;
 use Cron\CronExpression;
 use Illuminate\Console\Scheduling\Schedule;
 use Illuminate\Contracts\Console\Kernel;
@@ -25,7 +25,7 @@ class ScheduleWhen
         $this->kernel = $kernel;
     }
 
-    public function handle(CarbonInterface $moment): array
+    public function handle(Carbon $moment): array
     {
         $dueEvents = [];
 

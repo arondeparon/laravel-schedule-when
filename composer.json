@@ -1,5 +1,5 @@
 {
-    "name": "arondeparon/schedulewhen",
+    "name": "arondeparon/laravel-schedule-when",
     "description": "A command that enabled you see what the scheduler will do at a given moment in time.",
     "license": "MIT",
     "authors": [
@@ -9,8 +9,8 @@
             "homepage": "https://github.com/arondeparon"
         }
     ],
-    "homepage": "https://github.com/arondeparon/schedulewhen",
-    "keywords": ["Laravel", "ScheduleWhen"],
+    "homepage": "https://github.com/arondeparon/laravel-schedule-when",
+    "keywords": ["Laravel", "ScheduleWhen", "Scheduler", "crontab"],
     "require": {
         "php": "^7.2",
         "illuminate/support": "~5"
@@ -31,14 +31,14 @@
             "ArondeParon\\ScheduleWhen\\Tests\\": "tests"
         }
     },
+    "scripts": {
+        "test": "vendor/bin/phpunit"
+    },
     "extra": {
         "laravel": {
             "providers": [
                 "ArondeParon\\ScheduleWhen\\ScheduleWhenServiceProvider"
-            ],
-            "aliases": {
-                "ScheduleWhen": "ArondeParon\\ScheduleWhen\\Facades\\ScheduleWhen"
-            }
+            ]
         }
     }
 }
