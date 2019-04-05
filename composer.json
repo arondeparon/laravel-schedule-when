@@ -1,0 +1,43 @@
+{
+    "name": "arondeparon/schedulewhen",
+    "description": ":A command that enabled you see what the scheduler will do at a given moment in time.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Aron Rotteveel",
+            "email": "rotteveel.aron@gmail.com",
+            "homepage": "https://github.com/arondeparon"
+        }
+    ],
+    "homepage": "https://github.com/arondeparon/schedulewhen",
+    "keywords": ["Laravel", "ScheduleWhen"],
+    "require": {
+        "illuminate/support": "~5"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~7.0",
+        "mockery/mockery": "^1.1",
+        "orchestra/testbench": "~3.0",
+        "sempro/phpunit-pretty-print": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "ArondeParon\\ScheduleWhen\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "ArondeParon\\ScheduleWhen\\Tests\\": "tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "ArondeParon\\ScheduleWhen\\ScheduleWhenServiceProvider"
+            ],
+            "aliases": {
+                "ScheduleWhen": "ArondeParon\\ScheduleWhen\\Facades\\ScheduleWhen"
+            }
+        }
+    }
+}
