@@ -43,7 +43,7 @@ MIT license. Please see the [license file](license.md) for more information.
 
 [ico-version]: https://img.shields.io/packagist/v/arondeparon/laravel-schedule-when.svg?style=flat-square
 [ico-downloads]: https://img.shields.io/packagist/dt/arondeparon/laravel-schedule-when.svg?style=flat-square
-[ico-travis]: https://img.shields.io/travis/arondeparon/laravel-schedule-when/master.svg?style=flat-square
+[ico-travis]: https://img.shields.io/travis/ArondeParon/laravel-schedule-when/master.svg?style=flat-square
 [ico-styleci]: https://styleci.io/repos/12345678/shield
 
 [link-packagist]: https://packagist.org/packages/arondeparon/laravel-schedule-when
